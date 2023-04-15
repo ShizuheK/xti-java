@@ -16,15 +16,15 @@ public class BankAccountTest {
        accountRoger.showBalance();
        accountRoger.withdrawMoney(1000);
        accountRoger.showBalance();
-       accountRoger.depositMoney(1000);
+       accountRoger.depositMoney(2000);
        accountRoger.showBalance();
        
        BankAccount accountLine = new BankAccount();
        accountLine.clientName = "Line";
-       accountLine.accountBalance = 5_000.00;
+       accountLine.accountBalance = 6_000.00;
        accountLine.showBalance();
        
-       accountRoger.transferMoney(accountLine, 5000);
+       accountRoger.transferMoney(accountLine, 3000);
        accountRoger.showBalance();
        accountLine.showBalance();
     }
