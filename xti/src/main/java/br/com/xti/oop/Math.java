@@ -35,6 +35,11 @@ public class Math {
         return sum;
     }
     
+    /**
+     * 
+     * @param number
+     * @return square root based on Pell's Equation
+     */
     int pellEquation(int number){
         int oddCount = 1;
         int squareRoot = 0;
