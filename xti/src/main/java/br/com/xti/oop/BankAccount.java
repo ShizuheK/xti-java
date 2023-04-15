@@ -8,6 +8,6 @@ package br.com.xti.oop;
  *
  * @author k
  */
-public class BankAccout {
+public class BankAccount {
     
 }
