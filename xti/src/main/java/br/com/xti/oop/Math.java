@@ -9,6 +9,7 @@ package br.com.xti.oop;
  * @author k
  */
 public class Math {
+    
     /**
      * 
      * @param firstNumber
@@ -21,5 +22,16 @@ public class Math {
         } else {
             return secondNumber;
         }
+    }
+    
+    /**
+     * 
+     * @param firstNumber
+     * @param secondNumber
+     * @return the sum of both numbers
+     */
+    double sum(double firstNumber, double secondNumber){
+        double sum = firstNumber + secondNumber;
+        return sum;
     }
 }

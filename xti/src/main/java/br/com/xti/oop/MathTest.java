@@ -9,9 +9,16 @@ package br.com.xti.oop;
  * @author k
  */
 public class MathTest {
+    
     public static void main(String[] args){
+        
         Math math = new Math();
-        int greaterThan = math.greaterThan(10, 20);
-        System.out.println(greaterThan);
+        
+        int greaterThanResult = math.greaterThan(10, 20);
+        System.out.println(greaterThanResult);
+        
+        double sumResult = math.sum(50, 20);
+        System.out.println(sumResult);
+        
     }
 }
