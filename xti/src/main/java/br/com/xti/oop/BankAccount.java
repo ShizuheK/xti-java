@@ -9,10 +9,16 @@ package br.com.xti.oop;
  * @author k
  */
 public class BankAccount {
+    
     String clientName;
     double accountBalance;
     
     void showBalance() {
         System.out.println(clientName + ", your account balance is: " + accountBalance);
+    }
+    
+    void withdrawMoney(double value) {
+        accountBalance -= value;
+        
     }
 }

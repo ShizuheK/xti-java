@@ -14,5 +14,7 @@ public class BankAccountTest {
        account.clientName = "Roger";
        account.accountBalance = 10_000.00;
        account.showBalance();
+       account.withdrawMoney(1000);
+       account.showBalance();
     }
 }
