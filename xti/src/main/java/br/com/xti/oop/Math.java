@@ -41,8 +41,7 @@ public class Math {
      * @return square root based on Pell's Equation
      */
     int pellEquation(int number){
-        int oddCount = 1;
-        int squareRoot = 0;
+        int oddCount = 1, squareRoot = 0;
         while (number >= oddCount){
             number -= oddCount;
             oddCount += 2;
