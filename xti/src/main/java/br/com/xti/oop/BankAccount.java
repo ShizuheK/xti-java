@@ -19,6 +19,9 @@ public class BankAccount {
     
     void withdrawMoney(double value) {
         accountBalance -= value;
-        
+    }
+    
+    void depositMoney(double value) {
+        accountBalance += value;
     }
 }

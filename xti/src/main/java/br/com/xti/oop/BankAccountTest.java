@@ -16,5 +16,7 @@ public class BankAccountTest {
        account.showBalance();
        account.withdrawMoney(1000);
        account.showBalance();
+       account.depositMoney(1000);
+       account.showBalance();
     }
 }
