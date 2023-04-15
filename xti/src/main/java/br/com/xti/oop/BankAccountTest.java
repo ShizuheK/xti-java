@@ -10,13 +10,22 @@ package br.com.xti.oop;
  */
 public class BankAccountTest {
     public static void main(String[] args){
-       BankAccount account = new BankAccount();
-       account.clientName = "Roger";
-       account.accountBalance = 10_000.00;
-       account.showBalance();
-       account.withdrawMoney(1000);
-       account.showBalance();
-       account.depositMoney(1000);
-       account.showBalance();
+       BankAccount accountRoger = new BankAccount();
+       accountRoger.clientName = "Roger";
+       accountRoger.accountBalance = 10_000.00;
+       accountRoger.showBalance();
+       accountRoger.withdrawMoney(1000);
+       accountRoger.showBalance();
+       accountRoger.depositMoney(1000);
+       accountRoger.showBalance();
+       
+       BankAccount accountLine = new BankAccount();
+       accountLine.clientName = "Line";
+       accountLine.accountBalance = 5_000.00;
+       accountLine.showBalance();
+       
+       accountRoger.transferMoney(accountLine, 5000);
+       accountRoger.showBalance();
+       accountLine.showBalance();
     }
 }

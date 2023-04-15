@@ -24,4 +24,9 @@ public class BankAccount {
     void depositMoney(double value) {
         accountBalance += value;
     }
+    
+    void transferMoney(BankAccount destination, double value) {
+        this.withdrawMoney(value);
+        destination.depositMoney(value);
+    }
 }
