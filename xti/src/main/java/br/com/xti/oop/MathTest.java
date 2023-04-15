@@ -26,5 +26,8 @@ public class MathTest {
         // Or you can do it like this: double sumEvenOdd = math.sum(math.greatherThan(8,16), math.greaterThan(5,11);
         System.out.println(sumEvenOdd);
         
+        int mySquareRoot = math.pellEquation(35);
+        System.out.println(mySquareRoot);
+        
     }
 }

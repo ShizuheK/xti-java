@@ -34,4 +34,15 @@ public class Math {
         double sum = firstNumber + secondNumber;
         return sum;
     }
+    
+    int pellEquation(int number){
+        int oddCount = 1;
+        int squareRoot = 0;
+        while (number >= oddCount){
+            number -= oddCount;
+            oddCount += 2;
+            squareRoot += 1;
+        }
+        return squareRoot;
+    }
 }
