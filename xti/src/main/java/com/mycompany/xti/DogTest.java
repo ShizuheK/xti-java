@@ -13,5 +13,10 @@ public class DogTest {
         narcisus.race = "Mutt";
         narcisus.size = 30;
         narcisus.bark();
+        
+        Dog rodolpho = new Dog();
+        rodolpho.race = "Dobber";
+        rodolpho.size = 40;
+        rodolpho.bark();
     }
 }
