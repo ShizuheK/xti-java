@@ -9,5 +9,10 @@ package com.mycompany.xti;
  * @author k
  */
 public class Dog {
+    int size;
+    String race;
     
+    void bark(){
+        System.out.println("Woof, woof!");
+    }
 }
