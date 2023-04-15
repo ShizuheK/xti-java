@@ -9,5 +9,7 @@ package br.com.xti.oop;
  * @author k
  */
 public class BankAccountTest {
-    
+    public static void main(String[] args){
+        
+    }
 }
