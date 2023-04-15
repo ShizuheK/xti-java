@@ -9,5 +9,17 @@ package br.com.xti.oop;
  * @author k
  */
 public class Math {
-    
+    /**
+     * 
+     * @param firstNumber
+     * @param secondNumber
+     * @return the greater number between the two
+     */
+    int greaterThan(int firstNumber, int secondNumber){
+        if(firstNumber > secondNumber){
+            return firstNumber;
+        } else {
+            return secondNumber;
+        }
+    }
 }

@@ -10,6 +10,8 @@ package br.com.xti.oop;
  */
 public class MathTest {
     public static void main(String[] args){
-        
+        Math math = new Math();
+        int greaterThan = math.greaterThan(10, 20);
+        System.out.println(greaterThan);
     }
 }
