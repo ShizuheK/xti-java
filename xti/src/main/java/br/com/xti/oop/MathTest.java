@@ -20,5 +20,11 @@ public class MathTest {
         double sumResult = math.sum(50, 20);
         System.out.println(sumResult);
         
+        int evenGreater = math.greaterThan(8, 16);
+        int oddGreater = math.greaterThan(5, 11);
+        double sumEvenOdd = math.sum(evenGreater, oddGreater);
+        // Or you can do it like this: double sumEvenOdd = math.sum(math.greatherThan(8,16), math.greaterThan(5,11);
+        System.out.println(sumEvenOdd);
+        
     }
 }
