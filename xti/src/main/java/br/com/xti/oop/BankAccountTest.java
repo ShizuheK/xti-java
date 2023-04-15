@@ -13,5 +13,6 @@ public class BankAccountTest {
        BankAccount account = new BankAccount();
        account.clientName = "Roger";
        account.accountBalance = 10_000.00;
+       account.showBalance();
     }
 }
