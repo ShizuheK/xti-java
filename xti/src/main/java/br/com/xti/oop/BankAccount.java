@@ -9,5 +9,6 @@ package br.com.xti.oop;
  * @author k
  */
 public class BankAccount {
-
+    String clientName;
+    double accountBalance;
 }
