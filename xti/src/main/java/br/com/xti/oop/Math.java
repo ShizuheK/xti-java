@@ -45,7 +45,7 @@ public class Math {
         while (number >= oddCount){
             number -= oddCount;
             oddCount += 2;
-            squareRoot += 1;
+            ++squareRoot;
         }
         return squareRoot;
     }
