@@ -10,6 +10,8 @@ package br.com.xti.oop;
  */
 public class BankAccountTest {
     public static void main(String[] args){
-        
+       BankAccount account = new BankAccount();
+       account.clientName = "Roger";
+       account.accountBalance = 10_000.00;
     }
 }
