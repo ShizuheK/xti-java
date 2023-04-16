@@ -9,5 +9,7 @@ package br.com.xti.oop;
  * @author k
  */
 public class Car {
-    
+    String model;
+    int maximumSpeed;
+    double secondsZeroToHundred;
 }
