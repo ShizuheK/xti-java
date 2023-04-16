@@ -13,6 +13,6 @@ public class Chicken {
     public int eggs; 
     
     public void layEggs() {
-        eggs++;
+        this.eggs++;
     }
 }
