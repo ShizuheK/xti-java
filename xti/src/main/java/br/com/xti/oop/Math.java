@@ -52,4 +52,44 @@ public class Math {
         }
         return squareRoot;
     }
+    
+    /**
+     * 
+     * @param x
+     * @param y
+     * @return average between x and y
+     */
+    int average(int x, int y){
+        return (x+y)/2;
+    }
+    
+    /**
+     * 
+     * @param x
+     * @param y
+     * @return average between x and y
+     */
+    int average(String x, String y){
+        int ix = Integer.parseInt(x);
+        int iy = Integer.parseInt(y);
+        return (ix+iy/2);
+    }
+    
+    /**
+     * 
+     * @param x
+     * @return average of x
+     */
+    int average(int x){
+        return x;
+    }
+    
+    /**
+     * 
+     * @param numbers
+     * @return average between array of numbers
+     */
+    double average(double ... numbers){
+        return sum(numbers)/numbers.length;
+    }
 }
