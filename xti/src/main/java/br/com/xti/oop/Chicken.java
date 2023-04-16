@@ -23,4 +23,8 @@ public class Chicken {
         Chicken.allEggs++;
         return this;
     }
+    
+    public static double eggsAverage(int chickens) {
+        return Chicken.allEggs / chickens;
+    }
 }
