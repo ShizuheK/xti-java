@@ -15,4 +15,9 @@ public class Chicken {
     public void layEggs() {
         this.eggs++;
     }
+    
+    public Chicken layEggsNew() {
+        this.eggs++;
+        return this;
+    }
 }
