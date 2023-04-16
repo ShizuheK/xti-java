@@ -29,5 +29,12 @@ public class MathTest {
         int mySquareRoot = math.pellEquation(35);
         System.out.println(mySquareRoot);
         
+        System.out.println("\n");
+        
+        System.out.println(math.average("6","12"));
+        System.out.println(math.average(4));
+        System.out.println(math.average(45,33,24,51));
+        System.out.println(math.average(44, 33));
+        
     }
 }

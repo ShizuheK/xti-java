@@ -60,6 +60,7 @@ public class Math {
      * @return average between x and y
      */
     int average(int x, int y){
+        System.out.println("int x, int y");
         return (x+y)/2;
     }
     
@@ -70,9 +71,10 @@ public class Math {
      * @return average between x and y
      */
     int average(String x, String y){
+        System.out.println("String x, String y");
         int ix = Integer.parseInt(x);
         int iy = Integer.parseInt(y);
-        return (ix+iy/2);
+        return (ix+iy)/2;
     }
     
     /**
@@ -81,6 +83,7 @@ public class Math {
      * @return average of x
      */
     int average(int x){
+        System.out.println("int x");
         return x;
     }
     
@@ -90,6 +93,7 @@ public class Math {
      * @return average between array of numbers
      */
     double average(double ... numbers){
+        System.out.println("double ... numbers");
         return sum(numbers)/numbers.length;
     }
 }
