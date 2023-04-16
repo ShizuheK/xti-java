@@ -30,9 +30,12 @@ public class Math {
      * @param secondNumber
      * @return the sum of both numbers
      */
-    double sum(double firstNumber, double secondNumber){
-        double sum = firstNumber + secondNumber;
-        return sum;
+    double sum(double ... numbers){
+        double sumTotal = 0;
+        for(double n : numbers){
+            sumTotal += n;
+        }
+        return sumTotal;
     }
     
     /**
