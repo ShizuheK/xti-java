@@ -26,6 +26,6 @@ public class ChickenTest {
         
         System.out.println("Chicken 1 has a total of " + chicken1.eggs + " eggs.");
         System.out.println("Chicken 2 has a total of " + chicken2.eggs + " eggs.");
-        
+        System.out.println("Total of eggs: " + Chicken.allEggs);
     }
 }

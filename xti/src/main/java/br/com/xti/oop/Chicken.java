@@ -10,14 +10,17 @@ package br.com.xti.oop;
  */
 public class Chicken {
     
-    public int eggs; 
+    public static int allEggs; // Global Variable
+    public int eggs; // Object Variable
     
     public void layEggs() {
         this.eggs++;
+        Chicken.allEggs++;
     }
     
     public Chicken layEggsNew() {
         this.eggs++;
+        Chicken.allEggs++;
         return this;
     }
 }
