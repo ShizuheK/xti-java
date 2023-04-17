@@ -10,6 +10,12 @@ package br.com.xti.oop;
  */
 public enum MetricLengths {
     
-    MM, CM, M, KM;
+    MM("Millimeters"), CM("Centimeters"), M("Meters"), KM("Kilometers");
+    
+    public String title;
+
+    private MetricLengths(String title) {
+        this.title = title;
+    }
     
 }

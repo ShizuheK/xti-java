@@ -14,7 +14,11 @@ public class EnumTest {
     
     public static void main(String[] args){
         
+        System.out.println(MetricLengths.KM.title + "\n");
         
+        for(MetricLengths m : MetricLengths.values()){
+            System.out.println(m + ": " + m.title);
+        }
         
     }
     
