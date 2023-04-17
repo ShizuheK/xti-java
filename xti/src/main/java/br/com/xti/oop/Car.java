@@ -19,6 +19,10 @@ public class Car {
         
     }
     
+    public Car(String model, int maximumSpeed, double secondsZeroToHundred){
+        this(model, maximumSpeed, secondsZeroToHundred, null);
+    }
+    
     public Car(String model, int maximumSpeed, double secondsZeroToHundred, Engine engine){
         this.model = model;
         this.maximumSpeed = maximumSpeed;
