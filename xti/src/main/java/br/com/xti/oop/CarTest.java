@@ -9,7 +9,15 @@ package br.com.xti.oop;
  * @author k
  */
 public class CarTest {
+    
     public static void main(String[] args){
+        
+        Car honda = new Car();
+        honda.model = "Civic 98 Sedan EX";
+        honda.maximumSpeed = 180;
+        honda.secondsZeroToHundred = 8;
+        
+        Car nissan = new Car("Skyline R32", 180, 5);
         
     }
 }
