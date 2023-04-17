@@ -12,7 +12,13 @@ public class AnimalTest {
     
     public static void main(String[] args){
         
+        Cat tom = new Cat();
+        tom.food = "Meat";
+        tom.sleep();
         
+        Owl ja = new Owl();
+        ja.food = "Meat";
+        ja.watch();
         
     }
     
