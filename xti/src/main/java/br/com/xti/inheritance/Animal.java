@@ -4,17 +4,20 @@
  */
 package br.com.xti.inheritance;
 
+import javax.xml.catalog.CatalogManager;
+
 /**
  *
  * @author k
  */
 public class Animal {
     
+    String name;
     double weight;
     String food;
     
-    void sleep(){System.out.println("Sleeping...");}
+    void sleep(){System.out.println(this.name + "is sleeping...");}
     
-    void watch(){System.out.println("Watching...");}
+    void watch(){System.out.println(this.name + "is watching...");}
     
 }
