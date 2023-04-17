@@ -24,7 +24,10 @@ public class CarTest {
         honda.engine = v4;
         
         Engine v6 = new Engine("V6", 276);
+        
         Car nissan = new Car("Skyline R32", 180, 5, v6);
+        
+        Car subaru = new Car("WRX 2005 Impreza", 230, 6, new Engine("EJ205", 227));
         
     }
 }
