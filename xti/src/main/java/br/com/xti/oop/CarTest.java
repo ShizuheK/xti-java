@@ -17,7 +17,14 @@ public class CarTest {
         honda.maximumSpeed = 180;
         honda.secondsZeroToHundred = 8;
         
-        Car nissan = new Car("Skyline R32", 180, 5);
+        Engine v4 = new Engine();
+        v4.type = "V4";
+        v4.horsepower = 106;
+        
+        honda.engine = v4;
+        
+        Engine v6 = new Engine("V6", 276);
+        Car nissan = new Car("Skyline R32", 180, 5, v6);
         
     }
 }

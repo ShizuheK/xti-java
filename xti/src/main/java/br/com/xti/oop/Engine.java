@@ -8,16 +8,16 @@ package br.com.xti.oop;
  *
  * @author k
  */
-public class Motor {
+public class Engine {
     
     String type;
     int horsepower;
     
-    public Motor(){
+    public Engine(){
         
     }
     
-    public Motor(String type, int horsepower){
+    public Engine(String type, int horsepower){
         this.type = type;
         this.horsepower = horsepower;
     }
