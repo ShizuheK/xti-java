@@ -16,8 +16,8 @@ public class Animal {
     double weight;
     String food;
     
-    void sleep(){System.out.println(this.name + "is sleeping...");}
+    void sleep(){System.out.println(this.name + " is sleeping...");}
     
-    void watch(){System.out.println(this.name + "is watching...");}
+    void watch(){System.out.println(this.name + " is watching...");}
     
 }
