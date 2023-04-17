@@ -12,6 +12,14 @@ public class EnumTest {
     
     public static final double PI = 3.14;
     
+    public static void walk(MetricLengths lengths, int total){
+        if(lengths == MetricLengths.M) {
+            // code...
+        } else {
+            // code...
+        }
+    }
+    
     public static void main(String[] args){
         
         System.out.println(MetricLengths.KM.title + "\n");
@@ -20,6 +28,10 @@ public class EnumTest {
             System.out.println(m + ": " + m.title);
         }
         
+        walk(MetricLengths.MM, 100);
+        
     }
+    
+    
     
 }
