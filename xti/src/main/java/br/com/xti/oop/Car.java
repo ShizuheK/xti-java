@@ -13,15 +13,17 @@ public class Car {
     String model;
     int maximumSpeed;
     double secondsZeroToHundred;
+    Motor motor;
     
     public Car(){
         
     }
     
-    public Car(String model, int maximumSpeed, double secondsZeroToHundred){
+    public Car(String model, int maximumSpeed, double secondsZeroToHundred, Motor motor){
         this.model = model;
         this.maximumSpeed = maximumSpeed;
         this.secondsZeroToHundred = secondsZeroToHundred;
+        this.motor = motor;
     }
     
 }
